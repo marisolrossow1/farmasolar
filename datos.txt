@@ -1,0 +1,29 @@
+Carrera: Diseño y Programación Web
+Materia: Portales y Comercio Electrónico
+Cuatrimestre: 4
+Año: 2024
+Comisión: DWT4AP
+Alumnos: Ortiz Melina y Rossow Marisol
+Docente: Ferrer Carlos
+Carácter de Entrega: Segundo Parcial
+
+
+#   Usuario Admin:
+    carlos@ferrer.com
+    123456
+
+#   Usuario User:
+    marisol@gmail.com
+    melina@gmail.com
+    123456
+
+#   RESETEAR VÍNCULO DE STORAGE para manejar imágenes 
+##  En Windows:
+
+`rm public/storage`
+`php artisan storage:link`
+
+##  En mac:
+
+`rm -rf public/storage`
+`php artisan storage:link`
